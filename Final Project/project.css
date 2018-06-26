@@ -1,0 +1,47 @@
+.center{
+    text-align: center;
+}
+
+body{
+    background-color:#3a38bc;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+
+.title-text{
+    font-family: 'Satisfy', cursive;
+    padding: 40px;
+    font-size: 3.2em;
+    color: #34ed5c;
+}
+
+.img-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.navbar{
+      background-color: white;
+  }
+  .col-centered{
+    float: none;
+    margin: 0 auto;
+}
+.script {
+    font-family: 'Gloria Hallelujah', cursive;
+    color: #7fd875;
+}    
+
+.img-right{
+    display: block;
+    margin-right: 90px;
+    width: 50%;
+}
+.body {
+    font-size: 20px;
+    color:white
+}
