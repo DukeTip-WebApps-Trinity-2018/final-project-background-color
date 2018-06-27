@@ -3,7 +3,7 @@
 }
 
 body{
-    background-color:#3a38bc;
+    background-color:#ff6f91;
 }
 .column {
     float: left;
@@ -15,7 +15,7 @@ body{
     font-family: 'Satisfy', cursive;
     padding: 40px;
     font-size: 3.2em;
-    color: #34ed5c;
+    color: #f9f871;
 }
 
 .img-center{
@@ -25,15 +25,12 @@ body{
     width: 50%;
 }
 .navbar{
-      background-color: white;
+    background-color: white;
   }
-  .col-centered{
-    float: none;
-    margin: 0 auto;
-}
+
 .script {
     font-family: 'Gloria Hallelujah', cursive;
-    color: #7fd875;
+    color: #f9f871;
 }    
 
 .img-right{
@@ -41,7 +38,79 @@ body{
     margin-right: 90px;
     width: 50%;
 }
+
 .body {
     font-size: 20px;
-    color:white
+    color:  #ffc75f;
+    font-style: italic;
+    padding: 1.2cm;
+}
+
+.active {
+    font-style: italic;
+    text-decoration: underline;
+}
+.pls-work{
+    padding: 100px 100px 0px 175px;
+    position: absolute;
+    height: 60%;
+    width: 60%;
+         
+}
+.right {
+    float: right;  
+}
+
+
+ul, li, .body{
+    padding: 5px;
+    margin: 5px;
+}
+h4{
+    color: #f9f871;    
+}
+.column-two {
+    padding: 40px;          
+}
+
+.d-block{
+    margin: auto;
+}
+.card-title {
+    color: #845EC1;
+}
+
+.card-img-top{
+    height: 300px;    
+}
+.hours {
+    color: #f9f871;
+    text-align: center;
+}
+.title-text-two {
+    color: #f9f871;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    padding: 40px;
+}
+footer {
+    width: 100%;
+    background-color: #D65DB1;
+    padding: 5%;
+    color: #FFF;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 60px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    color:purple;
+}
+
+@media (max-width: 600px) {
+  .carousel-caption {
+      display: none;
+  }
 }
