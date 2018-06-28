@@ -23,9 +23,11 @@ body{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    padding: 10px 10px 10px 10px;
 }
 .navbar{
-    background-color: white;
+    background-color: #D65DB1;
+    color: white;
   }
 
 .script {
@@ -44,6 +46,7 @@ body{
     color:  #ffc75f;
     font-style: italic;
     padding: 1.2cm;
+    margin-bottom: 20px;
 }
 
 .active {
@@ -60,7 +63,6 @@ body{
 .right {
     float: right;  
 }
-
 
 ul, li, .body{
     padding: 5px;
@@ -79,7 +81,11 @@ h4{
 .card-title {
     color: #845EC1;
 }
-
+.hours {
+    color: #f9f871;
+    text-align: center;
+    font-size: 25px;
+}
 .card-img-top{
     height: 300px;    
 }
@@ -98,6 +104,8 @@ footer {
     background-color: #D65DB1;
     padding: 5%;
     color: #FFF;
+    /* position:absolute; */
+    /* bottom:0; */
 }
 
 .fa {
@@ -109,8 +117,173 @@ footer {
     color:purple;
 }
 
-@media (max-width: 600px) {
-  .carousel-caption {
-      display: none;
-  }
+.btn-primary, .btn-lg, .btn-block{
+    background-color: #845ec2;
+    padding: 5px;
+    color: white;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+ #fixedFooter{
+    margin-top: 350px;
+} 
+.move-please{
+    margin-top: 250px;
+}
+#theImg{
+    height: 100px;
+    width: 100px;
+    position:auto;
+}
+
+.submit{
+background-color: #ff9671;
+color: #845EC1
+}
+
+
+.api-style{
+    font-family: 'Gloria Hallelujah', cursive;
+    color: #845EC1;
+    font-size: 25px;
+}
+
+@media (max-width: 320px) {
+
+    .center{
+        text-align: center;
+    }
+    
+    body{
+        background-color:#ff6f91;
+    }
+    .column {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+    }
+    
+    .title-text{
+        font-family: 'Satisfy', cursive;
+        padding: 40px;
+        font-size: 1.2em;
+        color: #f9f871;
+    }
+    
+    .img-center{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        padding: 10px 10px 10px 10px;
+    }
+    .navbar{
+        background-color: #845ec2;
+        color: white;
+      }
+    
+    .script {
+        font-family: 'Gloria Hallelujah', cursive;
+        color: #f9f871;
+    }    
+    
+    .img-right{
+        display: block;
+        margin-right: 90px;
+        width: 50%;
+    }
+    
+    .body {
+        font-size: 20px;
+        color:  #ffc75f;
+        font-style: italic;
+        padding: 1.2cm;
+        margin-bottom: 20px;
+    }
+    
+    .active {
+        font-style: italic;
+        text-decoration: underline;
+    }
+    .pls-work{
+        padding: 100px 100px 0px 175px;
+        position: absolute;
+        height: 60%;
+        width: 60%;
+             
+    }
+    .right {
+        float: right;  
+    }
+    
+    ul, li, .body{
+        padding: 5px;
+        margin: 5px;
+    }
+    h4{
+        color: #f9f871;    
+    }
+    .column-two {
+        padding: 40px;          
+    }
+    
+    .d-block{
+        margin: auto;
+    }
+    .card-title {
+        color: #845EC1;
+    }
+    
+    .card-img-top{
+        height: 300px;    
+    }
+
+    .title-text-two {
+        color: #f9f871;
+        text-align: center;
+        font-family: 'Satisfy', cursive;
+        padding: 40px;
+    }
+    footer {
+        width: 100%;
+        background-color: #D65DB1;
+        padding: 5%;
+        color: #FFF;
+        /* position:absolute; */
+        /* bottom:0; */
+    }
+    
+    .fa {
+        padding: 20px;
+        font-size: 60px;
+        width: 100px;
+        text-align: center;
+        text-decoration: none;
+        color:purple;
+    }
+    
+    .btn-primary, .btn-lg, .btn-block{
+        background-color: #845ec2;
+        padding: 5px;
+        color: white;
+        font-family: 'Gloria Hallelujah', cursive;
+    }
+     #fixedFooter{
+        margin-top: 350px;
+    } 
+    .move-please{
+        margin-top: 250px;
+    }
+    #theImg{
+        height: 100px;
+        width: 100px;
+        position:auto;
+    }
+    
+    .d-block{
+    height: 0.8em;
+    width: 0.8em;
+    position: auto;
+    }
+    
+    
 }
