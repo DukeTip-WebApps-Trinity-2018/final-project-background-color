@@ -1,3 +1,10 @@
+#columnRight{
+    float: right;
+}
+.icon{
+    width: 200px;
+    height: 200px;
+}
 .center{
     text-align: center;
 }
@@ -28,6 +35,7 @@ body{
 .navbar{
     background-color: #D65DB1;
     color: white;
+    position: relative;
   }
 
 .script {
@@ -89,10 +97,11 @@ h4{
 .card-img-top{
     height: 300px;    
 }
-.hours {
-    color: #f9f871;
-    text-align: center;
+
+.card{
+    width: 400px
 }
+
 .title-text-two {
     color: #f9f871;
     text-align: center;
@@ -147,7 +156,12 @@ color: #845EC1
     font-size: 25px;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 460px) {
+
+    .icon{
+        width: 75px;
+        height: 75px;
+    }
 
     .center{
         text-align: center;
@@ -156,16 +170,18 @@ color: #845EC1
     body{
         background-color:#ff6f91;
     }
+
     .column {
         float: left;
         width: 33.33%;
-        padding: 5px;
+        padding: 10px;
+
     }
     
     .title-text{
         font-family: 'Satisfy', cursive;
-        padding: 40px;
-        font-size: 1.2em;
+        padding: 15px;
+        font-size: 20px;
         color: #f9f871;
     }
     
@@ -176,14 +192,11 @@ color: #845EC1
         width: 50%;
         padding: 10px 10px 10px 10px;
     }
-    .navbar{
-        background-color: #845ec2;
-        color: white;
-      }
     
     .script {
         font-family: 'Gloria Hallelujah', cursive;
         color: #f9f871;
+        font-size: 15px;
     }    
     
     .img-right{
@@ -193,26 +206,20 @@ color: #845EC1
     }
     
     .body {
-        font-size: 20px;
+        font-size: 10px;
         color:  #ffc75f;
         font-style: italic;
-        padding: 1.2cm;
+        padding: 0.6cm;
         margin-bottom: 20px;
     }
     
-    .active {
-        font-style: italic;
-        text-decoration: underline;
-    }
+
     .pls-work{
-        padding: 100px 100px 0px 175px;
+        padding: 70px 70px 0px 105px;
         position: absolute;
-        height: 60%;
-        width: 60%;
+        height: 30%;
+        width: 30%;
              
-    }
-    .right {
-        float: right;  
     }
     
     ul, li, .body{
@@ -221,20 +228,32 @@ color: #845EC1
     }
     h4{
         color: #f9f871;    
+        font-size: 8px;
+        text-align: center
+        paddin
     }
     .column-two {
         padding: 40px;          
     }
     
-    .d-block{
-        margin: auto;
-    }
     .card-title {
         color: #845EC1;
+        font-size: 20px 
     }
     
+    .card{
+        width: 250px;
+        height: 350px
+
+    }
+
+    
+    .column-body{
+    float: inherit;
+    }
     .card-img-top{
-        height: 300px;    
+        height: 150px;    
+        width: 250px;
     }
 
     .title-text-two {
@@ -242,20 +261,33 @@ color: #845EC1
         text-align: center;
         font-family: 'Satisfy', cursive;
         padding: 40px;
+        font-size: 15px
     }
+
+    
     footer {
         width: 100%;
         background-color: #D65DB1;
         padding: 5%;
         color: #FFF;
+        font-size: 70%
         /* position:absolute; */
         /* bottom:0; */
     }
     
+    .hours{
+        font-size: 50%
+    }
+    
+    img{
+        height: 50%;
+        width: 50%;
+    }
+
     .fa {
         padding: 20px;
-        font-size: 60px;
-        width: 100px;
+        font-size: 30px;
+        width: 70px;
         text-align: center;
         text-decoration: none;
         color:purple;
@@ -263,27 +295,33 @@ color: #845EC1
     
     .btn-primary, .btn-lg, .btn-block{
         background-color: #845ec2;
-        padding: 5px;
+        padding: 1px;
         color: white;
         font-family: 'Gloria Hallelujah', cursive;
     }
      #fixedFooter{
         margin-top: 350px;
     } 
-    .move-please{
-        margin-top: 250px;
-    }
+   
     #theImg{
-        height: 100px;
-        width: 100px;
+        height: 50px;
+        width: 50px;
         position:auto;
     }
     
     .d-block{
-    height: 0.8em;
-    width: 0.8em;
-    position: auto;
+    height: 50%;
+    width: 50%;
+    position: auto;     
+    margin: auto   
     }
+
+    .api-style{
+        font-family: 'Gloria Hallelujah', cursive;
+        color: #845EC1;
+        font-size: 10px;
+    }
+    
     
     
 }
