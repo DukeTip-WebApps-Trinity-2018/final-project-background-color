@@ -248,9 +248,7 @@ color: #845EC1
     }
 
     
-    .column-body{
-    float: inherit;
-    }
+    
     .card-img-top{
         height: 150px;    
         width: 250px;
@@ -321,6 +319,7 @@ color: #845EC1
         color: #845EC1;
         font-size: 10px;
     }
+
     
     
     
